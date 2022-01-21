@@ -16,3 +16,4 @@ TODO:
 	- [ ] Learn bit.dev
 	- [ ] Learn TypeScript
 * [ ] **K8S**
+* [ ] **NestJS**
