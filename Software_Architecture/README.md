@@ -48,7 +48,7 @@
 
 - **Cognitive Constraints** (aka Conway's Law)
 
-	Organizations which design systems are contrained to produce designs which are copies of the communication structure of these organizations.
+	Organizations which design systems are constrained to produce designs which are copies of the communication structure of these organizations.
 
 
 ### Motivation
@@ -63,7 +63,7 @@
 - Facilitates communication with stakeholders helping them to understand the consequences of their stated requirements and the design decisions based on them (allowing to change/adapt stakeholders requirement based on the project capabilities).
 
 
-### Architecture Arctivities
+### Architecture Activities
 
 Four core activities in software architecture design:
 
@@ -77,6 +77,33 @@ Four core activities in software architecture design:
 	- Requirements such as reliability, operability, performance efficiency, security and compability. (*non-functional requirements*)
 	- Development time of non-functional requirements such as maintainability and transferability.
 	- Business requirement and environmental context of a system that may change over time (such as legal, social, financial, competitive and techonology concerns).
+
+- Architectural Synthesis
+	
+	Given the significant requirements determined by the analysis, the current state of design and the result of evaluation activities, the design is created and improved
+
+- Architecture Evaluation
+
+	Determine how well the current design satisfies the requirements derived during analysis.
+
+	This process may occur when the architect is considering a design decision, after some portion of the design has been completed or at the very end when the final design has been completed or the system has been constructed.
+
+	This usually involves using some architecture evaluation techniques like [ATAM](./ATAM.md) and TARA.
+
+- Architecture Evolution
+
+	Adding new functionality as well as maintaining existing functionality and system behaviour, to meet changes in requirements and environment
+
+
+### Architecture supporting activities
+
+In general architecture requrires critical supporting activities which take place throughout the core software architecture process.
+
+Includes:
+- Knowledge management and communication
+- Design reasoning
+- Decision making
+- Docummentation.
 
 
 #### References
